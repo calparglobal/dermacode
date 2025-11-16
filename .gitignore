@@ -13,9 +13,8 @@ wp-content/ai1wm-backups/
 *.tar.gz
 *.zip
 
-# Cache and Uploads
+# Cache (but include uploads)
 wp-content/cache/
-wp-content/uploads/
 
 # Plugin and Theme Files (keep only custom ones)
 wp-content/plugins/akismet/
@@ -28,10 +27,11 @@ Thumbs.db
 .env
 .env.local
 
-# Large files
+# Large video files (but allow images)
 *.mp4
 *.avi
 *.mov
+# Large documents
 *.pdf
 
 # Node modules and dependencies
