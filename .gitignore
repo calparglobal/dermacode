@@ -16,10 +16,7 @@ wp-content/ai1wm-backups/
 # Cache (but include uploads)
 wp-content/cache/
 
-# Plugin and Theme Files (keep only custom ones)
-wp-content/plugins/akismet/
-wp-content/plugins/hello.php
-wp-content/themes/twenty*/
+# Keep all plugins and themes (including default ones)
 
 # System Files
 .DS_Store
