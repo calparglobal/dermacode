@@ -24,12 +24,20 @@ Thumbs.db
 .env
 .env.local
 
-# Large video files (but allow images)
+# Large files
 *.mp4
 *.avi
 *.mov
-# Large documents
 *.pdf
+
+# Large JavaScript bundles (optional - uncomment to speed up pushes)
+# wp-includes/js/dist/*.js
+# wp-content/plugins/*/assets/js/*.min.js
+
+# Large images (optional - uncomment to reduce size)
+# *.png
+# *.jpg
+# *.jpeg
 
 # Node modules and dependencies
 node_modules/
