@@ -1,0 +1,48 @@
+# WordPress Core Files
+wp-admin/
+wp-includes/
+wp-*.php
+xmlrpc.php
+license.txt
+readme.html
+
+# Configuration
+wp-config.php
+wp-config-sample.php
+.htaccess
+
+# Debug and Log Files
+wp-content/debug.log
+*.log
+
+# Backup Files
+wp-content/ai1wm-backups/
+*.wpress
+*.sql
+*.tar.gz
+*.zip
+
+# Cache and Uploads
+wp-content/cache/
+wp-content/uploads/
+
+# Plugin and Theme Files (keep only custom ones)
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+wp-content/themes/twenty*/
+
+# System Files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# Large files
+*.mp4
+*.avi
+*.mov
+*.pdf
+
+# Node modules and dependencies
+node_modules/
+vendor/
